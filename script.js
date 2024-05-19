@@ -9,8 +9,8 @@ const img = document.querySelector("#profile img")
 
 if(html.classList.contains('light')) {
     //se tiver light mode, adicionar a imagem light
-   img.setAttribute("src","./assets/avatar-light.png")
+   img.setAttribute("src", "./assets/assets/avatar-light.png")
 } else {
-    img.setAttribute("src","./assets/avatar.png")
+    img.setAttribute("src", "./assets/assets/avatar.png")
 } 
 }
